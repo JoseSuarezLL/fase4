@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+</head>
+
+<body>
+    <h1 id="resultado"> Responda las siguientes preguntas </h1>
+    <div> 
+        <form name="formulario">
+            <h3> 1. Cada una de las cajas está formada por seis partes:</h3>
+            <input type="radio" name="r1" value="a"> a. content, padding,border, background image, background color, margin <br>
+            <input type="radio" name="r1" value="b"> b. width, padding,border, background image, background color, margin   <br>
+            <input type="radio" name="r1" value="c"> c. blak, padding,border, background image, background color, margin   <br>
+
+            <h3> 2. El modelo de cajas o "box model" esta representado mediante una caja:</h3>
+            <input type="radio" name="r2" value="a"> a.rectangular <br>
+            <input type="radio" name="r2" value="b"> b.Circular <br>
+            <input type="radio" name="r2" value="c"> c.ovalada <br>
+
+            <h3> 3. Tipos basicos de caja en una pagina web :</h3>
+            <input type="radio" name="r3" value="a"> a. cajas en bloque y cajas en línea <br>
+            <input type="radio" name="r3" value="b"> b. cajas en bloque y cajas en rectas <br>
+            <input type="radio" name="r3" value="c"> c. cajas en bloque y cajas en ovaladas <br>
+
+            <h3> 4. ¿Que es CSS ? :</h3>
+            <input type="radio" name="r4" value="a"> a. Lenguanje de humano <br>
+            <input type="radio" name="r4" value="b"> b. Estructurador de lenguaje <br>
+            <input type="radio" name="r4" value="c"> c. Lenguaje de programacion. Hojas de estilo en cascada <br>
+
+            <h3> 5. ¿Qué características debe tener un diseño web?:</h3>
+            <input type="radio" name="r5" value="a"> a. Debe tener incoherente <br>
+            <input type="radio" name="r5" value="b"> b. Debe ser completo <br>
+            <input type="radio" name="r5" value="c"> c. Debe ser estético y debe cumplir con su propósito <br>
+
+            <h3><input type="button" value="Enviar" onclick="procesarRespuesta()">
+            <input type="button" value="Volver al menu" onClick="history.go(-1);"></h3>
+            	
+
+        
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
